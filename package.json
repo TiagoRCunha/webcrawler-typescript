@@ -1,0 +1,22 @@
+{
+  "name": "webcrawler-typescript",
+  "version": "1.0.0",
+  "author": "tiago<tiago.r.c.sn@gmail.com>",
+  "description": "webcrawler with typescript",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/request": "^2.48.4",
+    "typescript": "^3.7.5"
+  }
+}
